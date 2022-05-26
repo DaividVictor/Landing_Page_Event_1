@@ -15,5 +15,24 @@
 
 /* Event form */
 #event-description {
-  background: linear-gradient(rgba(0,0,0,0.8)),url("../Img/hrz-5.jpg");
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), 
+  url("../Img/hrz-5.jpg");
+  background-position: center; /* Centraliza a imagem. */
+  background-size: cover; /* A imagem ocupará o máx. possível da área últil do monitor. */
+  height: 85vh; /* Uma altura de 85% da visualização da tela. */
+  display: flex;
+  justify-content: space-around; /* Conteúdo igualmente espaçado. */
+  align-items: center; /* Alinhamento ao centro. */
+  color: var(--text-color);
 }
+
+#disclaimer h2, #disclaimer .event-date {
+  color: var(--primary);
+}
+
+#disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+
